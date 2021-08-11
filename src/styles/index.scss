@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+}
+body {
+    background: url("../assets/xiaomi_back.jpg");
+}
+.app-container {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+.app {
+    margin-top: 100px;
+    max-width: 100%;
+    max-height: 640px;
+    @media screen and (max-height: 740px) {
+        margin-top: 0;
+    }
+}
